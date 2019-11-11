@@ -5,4 +5,4 @@ Problem definition: <br> <br>At the beginning of every semester students must en
 <br><br>Solution<br><br>
 Login helper takes the advantage of multi thread processing and speed of computer by removing human intervention.<br> <br>Implemented with: Python programming language and flask framework.
 
-![alt text](CankutCoskun/bannerweb-login/blob/master/gui.png?raw=true "Title")
+![alt text](gui.png?raw=true "Title")

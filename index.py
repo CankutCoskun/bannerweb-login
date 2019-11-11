@@ -66,13 +66,19 @@ def thread_function(username, password, threadId ):
     Window_List = browser.window_handles
     num_tabs = len(Window_List)    
     
+    mutex = threading.Lock()
     global loggedIn
     global exception
 
     while not loggedIn and not exception:
+
         for i in range(num_tabs):
             browser.switch_to.window(Window_List[i])
+            #mutex HERE
+            mutex.acquire()
             loggedIn, exception = tryLogin(username, password, browser)
+            #print("Current Page Title is : %s" %browser.title)
+            mutex.release()
 
             if loggedIn or exception:
                 break

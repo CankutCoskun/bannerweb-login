@@ -1,6 +1,6 @@
 # bannerweb-login Helper
 
-### An automation software with a simple gui developed in order to ease the course enrollment process at Sabanci University.<br>
+### An automation software with a simple gui to ease the course enrollment process at Sabanci University.<br>
 You may refer https://cankutcoskun.github.io/bannerweb-login/<br><br> 
 Problem definition: <br>At the beginning of every semester students must enroll chosen courses via enrollment system of Sabanci University (BannerWeb). System becomes overcrowded rapidly an do not response all clients simultaneously. 
 <br><br>Solution:<br>
